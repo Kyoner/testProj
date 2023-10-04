@@ -1,0 +1,34 @@
+{
+    "name": "JoystikControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "774d4798-7a05-4aec-ae33-26ca5b01563c",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "5f5cd8bb-29b0-421c-a90c-cf96760e396c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6486f6f6-9ee2-463a-8780-f01dfcaaa820",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
