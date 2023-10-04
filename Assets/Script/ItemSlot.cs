@@ -27,6 +27,10 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         {
             AmountUI.gameObject.SetActive(false);
         }
+        else
+        {
+            AmountUI.gameObject.SetActive(true);
+        }
     }
     public void LoadData(string datajson, string spritejson, int num, out int emptySlot)
     {

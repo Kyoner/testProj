@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     }
     public void Restart()
     {
+        File.Delete(Application.persistentDataPath + "/save.dat");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     private void OnApplicationQuit()
